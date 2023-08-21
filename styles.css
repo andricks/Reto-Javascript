@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  .tablero-tareas {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .columna {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tareas {
+    min-height: 100px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .agregar-tarea-btn,
+  .eliminar-columna-btn {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .agregar-tarea-btn:hover,
+  .eliminar-columna-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .agregar-tarea-btn:active,
+  .eliminar-columna-btn:active {
+    background-color: #003e80;
+  }
+  
+  .agregar-columna-btn {
+    margin-bottom: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .agregar-columna-btn:hover {
+    background-color: #1d7e35;
+  }
+  
+  .agregar-columna-btn:active {
+    background-color: #136624;
+  }
+  
